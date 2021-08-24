@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        img {
+            width: 'auto';
+            margin-left: 5%;
+            padding-top: 5%;
+        }
+
+        th,
+        td {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body style="background-color:#edf0f3;">
+    <img src={{image}} />
+    <h2 style="margin-left:5%">Hi {{user.name}},</h2>
+    <h4 style="margin-left:5%">Thank you for your registration in UMA's MERN Stack Mini Project</h4>
+
+    <p style="margin-left:5%">
+        your details are as follows
+    </p>
+    <table border=2 style="overflow-x:auto;border-collapse: collapse;margin-left:5%;width:80%">
+        <tr>
+            <th>Email</th>
+            <td>{{user.email}}</td>
+        </tr>
+        <tr>
+            <th>Gender</th>
+            <td>{{user.gender}}</td>
+        </tr>
+        <tr>
+            <th>Date of Birth</th>
+            <td>{{user.dob}}</td>
+        </tr>
+        <tr>
+            <th>Skills</th>
+            <td>{{user.skills}}</td>
+        </tr>
+    </table>
+
+    <p style="padding-top:2%; margin-left: 5%;">
+        Thank you for using UMA's app.
+    </p>
+    <p style="padding-top:1%; margin-left: 5%;">
+        For any query or assistance, feel free to contact Us
+    </p>
+    <p style="padding-top:1%;padding-bottom: 2%; margin-left: 5%;"><b>@Passionated Team.</b></div>
+</body>
+
+</html>
